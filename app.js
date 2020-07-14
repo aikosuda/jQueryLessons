@@ -1,11 +1,5 @@
 $(function(){
-	$('.box1').fadeIn(3000,function(){
-		$('.box1').css({
-			'background-color':'#0000ff',
-			'width':'200px',
-			'height':'100px'
-		}).fadeOut(function(){
-			$('.box1').show(2000)
-		});
+	$('.box1').mouseover(function(){
+		$('.box1').css({'background-color':'#0000ff'})
 	});
 });
